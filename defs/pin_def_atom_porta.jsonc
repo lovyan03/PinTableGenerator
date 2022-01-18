@@ -1,0 +1,22 @@
+{
+    "pin_definitions": {
+        "GND": {"type": "gnd"},
+        "3V3": {"type": "3v3"},
+        "5V":  {"type": "5v"},
+
+        // I2S pins
+        "G22": {"type": "normal", "usage": "I2SOUT",  "usage_type": "I2S"},
+        "G19": {"type": "normal", "usage": "I2S CLK", "usage_type": "I2S"},
+        "G23": {"type": "normal", "usage": "PDM in",  "usage_type": "I2S"},
+        "G33": {"type": "normal", "usage": "LRCK",    "usage_type": "I2S"},
+        // I2C pins
+        "G21": {"type": "normal", "usage":"SCL",      "usage_type": "I2C"},
+        "G25": {"type": "normal", "usage":"SDA",      "usage_type": "I2C"},
+    },
+    "pin_map": [
+        ["GND"],
+        ["5V" ],
+        ["G26"],
+        ["G32"],
+    ],
+}

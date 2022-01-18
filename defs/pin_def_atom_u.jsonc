@@ -1,0 +1,19 @@
+{
+    "pin_definitions": {
+        "GND": {"type": "gnd"},
+        "5V":  {"type": "5v"},
+
+        "G21": {"type": "normal"},
+        "G22": {"type": "normal"},
+        "G33": {"type": "normal"},
+        "G25": {"type": "normal"},
+    },
+    "pin_map": [
+        ["GND"],
+        ["5V"],
+        ["G25"],
+        ["G33"],
+        ["G22"],
+        ["G21"],
+    ],
+}

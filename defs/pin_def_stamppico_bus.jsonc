@@ -1,0 +1,41 @@
+{
+    "pin_definitions": {
+        "GND": {"type": "gnd"},
+        "3V3": {"type": "3v3"},
+        "5Vin": {"type": "5v"},
+        "5Vout":{"type": "5v"},
+        "BAT":  {"type": "bat"},
+
+        // UART0 pins
+        "G3":  {"type": "normal",     "usage": "RXD0", "usage_type": "UART"},
+        "G1":  {"type": "normal",     "usage": "TXD0", "usage_type": "UART"},
+        // GPIO pins
+        "G25": {"type": "normal",     "usage": "DAC", "usage_type": "DAC"},
+        // SPI pins
+        "G26": {"type": "normal",     "usage": "MOSI", "usage_type": "SPI"},
+        "G36": {"type": "input_only", "usage": "MISO", "usage_type": "SPI"},
+        "G18": {"type": "normal",     "usage": "SCK",  "usage_type": "SPI"},
+        "G19": {"type": "normal",     "usage": "CS",   "usage_type": "SPI"},
+        // UART2 pins
+        "G13": {"type": "normal",     "usage": "RXD2", "usage_type": "UART"},
+        "G14": {"type": "normal",     "usage": "TXD2", "usage_type": "UART"},
+        // I2C pins (internal)
+        "G21": {"type": "normal",     "usage": "SDA",  "usage_type": "I2C"},
+        "G22": {"type": "normal",     "usage": "SCL",  "usage_type": "I2C"},
+        "G32": {"type": "normal",     "usage": "SDA",  "usage_type": "I2C"},
+        "G33": {"type": "normal",     "usage": "SCL",  "usage_type": "I2C"},
+
+        "EN":  {"type": "misc", "usage": "RST", "usage_type": "RST"},
+    },
+    "pin_map": [
+        ["",    "G26"],
+        ["",    "G36"],
+        ["",    "G18"],
+        ["3V3", "G19"],
+        ["G1",  "G21"],
+        ["G3",  "G22"],
+        ["EN",  "G25"],
+        ["G0",  "5V"],
+        ["GND", "GND"],
+    ],
+}

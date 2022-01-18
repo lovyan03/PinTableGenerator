@@ -1,0 +1,23 @@
+{
+    "pin_definitions": {
+        "GND": {"type": "gnd"},
+        "3V3": {"type": "3v3"},
+        "5V":  {"type": "5v"},
+
+        // I2S pins
+        "G22": {"type": "normal", "usage": "I2SOUT",  "usage_type": "I2S"},
+        "G19": {"type": "normal", "usage": "I2S CLK", "usage_type": "I2S"},
+        "G23": {"type": "normal", "usage": "PDM in",  "usage_type": "I2S"},
+        "G33": {"type": "normal", "usage": "LRCK",    "usage_type": "I2S"},
+
+        "G21": {"type": "normal"},
+        "G25": {"type": "normal"},
+    },
+    "pin_map": [
+        ["3V3",  ""],
+        ["G22",  "G21"],
+        ["G19",  "G25"],
+        ["G23",  "5V"],
+        ["G33",  "GND"],
+    ],
+}

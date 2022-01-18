@@ -56,7 +56,7 @@ def generate_pin_map_svg(pin_map: Tuple[Tuple[str]], pin_definitions: Dict[str, 
                     rect_kwargs["stroke"] = usage_border_color
                 rect = drawing.rect(insert=(usage_start_x, y), size=(usage_column_width, row_height), fill=usage_fill, **rect_kwargs)
                 drawing.add(rect)
-                text = drawing.text(pin_usage, insert=(usage_start_x+usage_column_width/2, y+row_height/2), style='text-anchor:middle; dominant-baseline:central', fill=usage_text_color)
+                text = drawing.text(pin_usage, insert=(usage_start_x+usage_column_width/2, y+row_height/2), style='font-size:80%; text-anchor:middle; dominant-baseline:central', fill=usage_text_color)
                 drawing.add(text)
 
     return drawing

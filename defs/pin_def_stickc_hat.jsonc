@@ -1,0 +1,29 @@
+{
+    "pin_definitions": {
+        "GND":  {"type": "gnd"},
+        "3V3":  {"type": "3v3"},
+        "5Vout":{"type": "5v"},
+        "5Vin": {"type": "5v"},
+        "BAT":  {"type": "bat"},
+
+        "G0":  {"type": "normal"     },
+        "G25": {"type": "normal"     },
+        "G26": {"type": "normal"     },
+
+        // I2C pins (internal)
+        "G32": {"type": "normal",     "usage": "SDA",     "usage_type": "I2C"},
+        "G33": {"type": "normal",     "usage": "SCL",     "usage_type": "I2C"},
+        "G35": {"type": "input_only" },
+        "G36": {"type": "input_only" },
+    },
+    "pin_map": [
+        ["GND"  ],
+        ["5Vout"],
+        ["G26"  ],
+        ["G36"  ],
+        ["G0"   ],
+        ["BAT"  ],
+        ["3V3"  ],
+        ["5Vin" ],
+    ],
+}

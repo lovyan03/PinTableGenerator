@@ -9,9 +9,9 @@
         "G19": {"type": "normal"},
         "G23": {"type": "normal"},
         "G33": {"type": "normal"},
-        // I2C pins
-        "G21": {"type": "normal", "usage":"SCL",      "usage_type": "I2C"},
-        "G25": {"type": "normal", "usage":"SDA",      "usage_type": "I2C"},
+
+        "G21": {"type": "normal"},
+        "G25": {"type": "normal"},
     },
     "pin_map": [
         ["3V3",  ""],

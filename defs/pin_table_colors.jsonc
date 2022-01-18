@@ -3,13 +3,14 @@
     // [background, text, border(optional)]
     "pin_type_colors": {
         "gnd": ["black", "white"],
-        "3v3": ["#c00000", "#ffffff"],
-        "5v":  ["#c00000", "#ffffff"],
+        "3v3": ["#c06000", "#ffffff"],
+        "5v":  ["#e00000", "#ffffff"],
         "bat": ["#c0c000", "#000000"],
         "hpwr": ["#c0a000", "#000000"],
         "i2c": ["#003000", "#000000"],
-        "input_only": ["#005000", "#000000", "red"],
+        "input_only": ["#005000", "#FFFFFF", "red"],
         "misc": ["#c0c0c0", "#000000"],
+        "nc": ["#660066", "#ffffff"],
         "normal": ["#ffffff", "#000000"],
     },
 
