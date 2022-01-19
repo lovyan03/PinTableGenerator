@@ -1,0 +1,36 @@
+{
+    "pin_definitions": {
+        "GND": {"type": "gnd"},
+        "3V3": {"type": "3v3"},
+        "5V":  {"type": "5v"},
+
+        // I2C pins (internal)
+        "G0":  {"type": "normal",     "usage": "SCL",  "usage_type": "I2C"},
+        "G1":  {"type": "normal",     "usage": "SDA",  "usage_type": "I2C"},
+
+        "G3": {"type": "normal",      "usage": "BTN",  "usage_type": "BTN" },
+
+        // USB pins
+        "G18": {"type": "normal",    "usage": "D-",   "usage_type": "USB"},
+        "G19": {"type": "normal",    "usage": "D+",   "usage_type": "USB"},
+        // UART2 pins
+        "G20": {"type": "normal",     "usage": "RXD",  "usage_type": "UART"},
+        "G21": {"type": "normal",     "usage": "TXD",  "usage_type": "UART"},
+
+        "EN":  {"type": "misc", "usage": "RST", "usage_type": "RST"},
+    },
+    "pin_map": [
+        [""   , "GND"],
+        [""   , "G4" ],
+        ["3V3", "G5" ],
+        ["G21", "G6" ],
+        ["G20", "G7" ],
+        ["EN" , "G8" ],
+        ["G9" , "G10"],
+        ["GND", "5V" ],
+        ["G18", "GND"],
+        ["G19", "5V" ],
+        ["5V" , "G1" ],
+        ["GND", "G0" ],
+    ],
+}

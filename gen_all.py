@@ -31,6 +31,8 @@ targets = {
     'stickcplus_hat': { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'coreink_hat':    { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'stamppico_bus':  { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': False, 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
+    'stampc3_bus':    { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': False, 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
+    'stampc3u_bus':   { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': False, 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'atom_u':         { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'atom_lite':      { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': False, 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'atom_matrix':    { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': False, 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
