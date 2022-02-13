@@ -7,7 +7,7 @@
 
         "G22": {"type": "normal"},
         "G19": {"type": "normal"},
-        "G23": {"type": "normal"},
+        "G23": {"type": "normal", "usage":"G34",      "usage_type": "RO"},
         "G33": {"type": "normal"},
         // I2C pins
         "G21": {"type": "normal", "usage":"SCL",      "usage_type": "I2C"},
