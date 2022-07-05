@@ -36,6 +36,7 @@
         "G34": {"type": "input_only", "usage": "PDM DAT", "usage_type": "I2S"},
 
         "EN":  {"type": "misc", "usage": "RST", "usage_type": "RST"},
+        "NC":  {"type": "nc", "usage": "HPWR", "usage_type": "HPWR"},
     },
     "pin_map": [
         ["GND",  "G35"],

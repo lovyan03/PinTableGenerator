@@ -4,7 +4,7 @@
         "3V3": {"type": "3v3"},
         "5V":  {"type": "5v"},
         "BAT": {"type": "bat"},
-        "HPWR": {"type": "hpwr"},
+        "NC":  {"type": "nc"},
 
         // ADC pins
         "G35": {"type": "input_only", "usage": "ADC" , "usage_type": "ADC"},
@@ -36,6 +36,7 @@
         "G34": {"type": "input_only", "usage": "I2S IN", "usage_type": "I2S"},
 
         "EN":  {"type": "misc", "usage": "RST", "usage_type": "RST"},
+        "NC":  {"type": "nc", "usage": "HPWR", "usage_type": "HPWR"},
     },
     "pin_map": [
         ["GND",  "G35"],
@@ -50,8 +51,8 @@
         ["G2",   "G5"],
         ["G12",  "G13"],
         ["G15",  "G0"],
-        ["HPWR", "G34"],
-        ["HPWR", "5V"],
-        ["HPWR", "BAT"],
+        ["NC",   "G34"],
+        ["NC",   "5V"],
+        ["NC",   "BAT"],
     ],
 }
