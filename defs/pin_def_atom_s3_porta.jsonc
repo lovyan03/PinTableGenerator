@@ -5,13 +5,13 @@
         "5V":  {"type": "5v"},
 
         // I2C pins
-        "G32": {"type": "normal", "usage":"SCL",      "usage_type": "I2C"},
-        "G26": {"type": "normal", "usage":"SDA",      "usage_type": "I2C"},
+        "G1": {"type": "normal", "usage":"SCL",      "usage_type": "I2C"},
+        "G2": {"type": "normal", "usage":"SDA",      "usage_type": "I2C"},
     },
     "pin_map": [
         ["GND"],
         ["5V" ],
-        ["G26"],
-        ["G32"],
+        ["G2" ],
+        ["G1" ],
     ],
 }

@@ -33,7 +33,7 @@ python3 gen_all.py
 
 * M5Stack COREのピン配置
 
-![M5Stack CORE](outputs/pin_def_core.svg)
+![M5Stack CORE](outputs/pin_def_core_bus.svg)
 
 * M5Atom Matrixのピン配置
 

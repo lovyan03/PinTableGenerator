@@ -27,6 +27,7 @@ targets = {
     'station_portc2': { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'stickc_porta':   { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'atom_porta':     { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
+    'atom_s3_porta':  { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'stickc_hat':     { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'stickcplus_hat': { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'coreink_hat':    { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
@@ -38,6 +39,7 @@ targets = {
     'atom_matrix':    { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': False, 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'atom_echo':      { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': False, 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'atom_psram':     { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': False, 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
+    'atom_s3':        { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': False, 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
 }
 
 for target_name, target_defs in targets.items():

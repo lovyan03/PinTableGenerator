@@ -1,0 +1,23 @@
+{
+    "pin_definitions": {
+        "GND": {"type": "gnd"},
+        "3V3": {"type": "3v3"},
+        "5V":  {"type": "5v"},
+
+
+        "G5": {"type": "normal"},
+        "G6": {"type": "normal"},
+        "G7": {"type": "normal"},
+        "G8": {"type": "normal"},
+        // I2C pins
+        "G39": {"type": "normal", "usage":"SCL",      "usage_type": "I2C"},
+        "G38": {"type": "normal", "usage":"SDA",      "usage_type": "I2C"},
+    },
+    "pin_map": [
+        ["3V3", ""],
+        ["G5",  "G39"],
+        ["G6",  "G38"],
+        ["G7",  "5V"],
+        ["G8",  "GND"],
+    ],
+}
