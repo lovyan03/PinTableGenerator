@@ -6,6 +6,7 @@ import os.path
 targets = {
     'core_bus':       { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'core2_bus':      { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
+    'cores3_bus':     { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'coreink_bus':    { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'core_porta':     { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
     'core_portb':     { 'colors': 'pin_table_colors', 'options': {'span_pin_name_without_usage': True , 'row_height': 24, 'pin_name_column_width': 24, 'usage_column_width': 40 }},
