@@ -1,0 +1,49 @@
+{
+    "pin_definitions": {
+        "GND": {"type": "gnd"},
+        "3V3": {"type": "3v3"},
+        "5V":  {"type": "5v"},
+        "BAT": {"type": "bat"},
+        "NC":  {"type": "nc"},
+
+        // ADC pins
+        "G10": {"type": "normal",     "usage": "ADC" , "usage_type": "ADC"},
+        "G9":  {"type": "normal",     "usage": "PB OUT", "usage_type": "ADC"},
+        "G8":  {"type": "normal",     "usage": "PB IN" , "usage_type": "ADC"},
+        // DAC pins
+        "G25": {"type": "normal",     "usage": "DAC" , "usage_type": "DAC"},
+        "G26": {"type": "normal",     "usage": "DAC" , "usage_type": "DAC"},
+        // SPI pins
+        "G37": {"type": "normal",     "usage": "MOSI", "usage_type": "SPI"},
+        "G35": {"type": "normal",     "usage": "MISO", "usage_type": "SPI"},
+        "G36": {"type": "normal",     "usage": "SCK",  "usage_type": "SPI"},
+        // UART0 pins
+        "G44":  {"type": "normal",     "usage": "RXD0", "usage_type": "UART"},
+        "G43":  {"type": "normal",     "usage": "TXD0", "usage_type": "UART"},
+        // UART2 pins
+        "G18": {"type": "normal",     "usage": "PC RX", "usage_type": "UART"},
+        "G17": {"type": "normal",     "usage": "PC TX", "usage_type": "UART"},
+        // I2C pins (internal)
+        "G12": {"type": "normal",     "usage": "intSDA",  "usage_type": "I2C"},
+        "G11": {"type": "normal",     "usage": "intSCL",  "usage_type": "I2C"},
+        "G2":  {"type": "normal",     "usage": "PA SDA",  "usage_type": "I2C"},
+        "G1":  {"type": "normal",     "usage": "PA SCL",  "usage_type": "I2C"},
+        // GPIO pins
+        "G5":  {"type": "normal",     "usage": "GPIO", "usage_type": "GPIO"},
+        "G6":  {"type": "normal",     "usage": "GPIO", "usage_type": "GPIO"},
+        "G7":  {"type": "normal",     "usage": "GPIO", "usage_type": "GPIO"},
+        // I2S pins
+        "G13": {"type": "normal",     "usage": "I2SOUT", "usage_type": "I2S"},
+        "G0":  {"type": "normal",     "usage": "I2S LRCK", "usage_type": "I2S"},
+        "G14": {"type": "normal",     "usage": "I2S IN", "usage_type": "I2S"},
+
+        "EN":  {"type": "misc", "usage": "RST", "usage_type": "RST"},
+        "NC":  {"type": "nc", "usage": "HPWR", "usage_type": "HPWR"},
+    },
+    "pin_map": [
+        ["GND"],
+        ["5V" ],
+        ["G17"],
+        ["G18"],
+    ],
+}
